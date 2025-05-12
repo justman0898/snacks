@@ -3,7 +3,6 @@ public class MultiplicationFunction {
 	public static void multiplicationTableOf(int number1, int number2){
 		int product = 0;
 		System.out.println(" ".repeat(8) + "Multiplication Table");
-		//print(" " * 4, end="")
 		System.out.print(" ".repeat(3));
 		for(int i = 1; i <= number2; i++) {
 			System.out.printf("%4d",i);
